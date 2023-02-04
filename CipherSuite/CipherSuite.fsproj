@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Arr4D.fs" />
+        <Compile Include="Assembly.fs" />
+        <Compile Include="FitnessAnalyser.fs" />
+        <Compile Include="Caesar.fs" />
+        <Compile Include="Affine.fs" />
+        <Compile Include="Monoalphabetic.fs" />
+        <EmbeddedResource Include="tetragraphs.txt" />
+    </ItemGroup>
+
+</Project>
